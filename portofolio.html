@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <h2>Andi Angga K.P</h2>
+            <!-- <button>tes</button> -->
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#ability">Ability</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Home -->
+    <section id="home" class="parallax bg-1">
+        <div class="content">
+            <h1>Halo, ini porto saya</h1>
+            <img src="img/gambar-2.jpeg" width="250" alt="">
+            <p>Web Porgrammer</p>
+        </div>
+    </section>
+    <!-- Ability -->
+    <section id="ability" class="normal-section">
+        <div class="container">
+            <h2>Keahlian saya</h2>
+            <div class="wraper">
+                <div class="ability">
+                    <h3>My Skills</h3>
+                    <ul type="none">
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Tidur</li>
+                        <li>Bengong</li>
+                    </ul>
+                </div>
+                <div class="ability">
+                    <h3>My Experience</h3>
+                   <ul type="none">
+                    <li>Memasak</li>
+                    <li>Memancing</li>
+                    <li></li>
+                    <li></li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="parallax bg-2">
+        <div class="content2">
+            <h2>Tentang Saya</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="img/gambar-3.jfif" width="300px" alt="About image">
+                    <figcaption>Aargghhh</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/gambar-4.jpg" height="200px" alt="About image">
+                    <figcaption>Gajah</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/gambar-5.webp" alt="About image">
+                    <figcaption>Senja</figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact -->
+    <section id="contact"></section>
+    <div class="container">
+        <h1>Kontak Saya</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" placeholder="Enter Your Subject">
+            </div>
+            <div class="form-group">
+                <label for="name">Email</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Email" required/>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" name="message" placeholder="Type Your Message" required></textarea>
+            </div>
+            <div class="button-group">
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+    </div>
+</body>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; <span id="year"></span> Portofolio Andi Angga Krismona P.</p>
+    </div>
+</footer>
+
+</html>

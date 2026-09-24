@@ -91,7 +91,7 @@ nav > a:hover {
   width: 100%;
   max-width: 500px;
   color: white;
-  
+
 }
 
 .content > img {
@@ -216,6 +216,11 @@ footer {
     margin-right: 10px;
   }
 
+  #contact .contaier {
+    background-color: rgba(29, 28, 28, 0.3);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+  }
 
 @media (max-width: 768px) {
   .gallery {
